@@ -302,31 +302,30 @@ function comparar(letra){
 function carregaImagem(){
     switch(tentativa){
         case 6:
-            let img6 = "url('forca.1.png', 'forca.2.png', 'forca.3.png', 'forca.4.png', 'forca.5.png', 'forca.6.png', 'forca.7.png', 'forca.8.png', 'forca.9.png', 'forca.10.png' )";
+            let img6 = "url('imagem/forca.4.png')";
             document.getElementById("imagem").style.background = img6;
             break;
         case 5:
-            document.getElementById("imagem").style.background  = "url('forca.5.png')";
+            document.getElementById("imagem").style.background  = "url('imagem/forca.4.png')";
             break;
         case 4:
-            document.getElementById("imagem").style.background  = "url('forca.6.png')";
+            document.getElementById("imagem").style.background  = "url('imagem/forca.5.png')";
             break;
         case 3:
-            document.getElementById("imagem").style.background  = "url('forca.7.png')";
+            document.getElementById("imagem").style.background  = "url('imagem/forca.6.png')";
             break;
         case 2:
-            document.getElementById("imagem").style.background  = "url('forca.8.png')";
+            document.getElementById("imagem").style.background  = "url('imagem/forca.7.png')";
             break;
         case 1:
-            document.getElementById("imagem").style.background  = "url('forca.9.png')";
+            document.getElementById("imagem").style.background  = "url('imagem/forca.9.png')";
             break;
         default:
-            document.getElementById("imagem").style.background  = "url('forca.10.png')";
+            document.getElementById("imagem").style.background  = "url('imagem/forca.10.png')";
            
             break;
     }
 }
-
 
 function selecionarCategoria(){
     const selecionarCat = document.querySelector("palavras").categoria;

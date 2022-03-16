@@ -6,15 +6,17 @@
 }
 
 body{
-    width: 100vw;
-    height: 90vh;
-    margin-top: 10px;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    margin-top: 150px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: white;
-    background-image: url(https://th.bing.com/th/id/OIP.7SsPldw4JtyXRc8xG89kkgHaFD?pid=ImgDet&rs=1);
-    background-size: cover;
-    background-image: url(imag.forca.png);
-    
+    background-image: url('imagem/forca1.jpg');
+    background-size: 100%;
+
+   }
+
 
 h1{
     font-weight: 600 ;
@@ -35,11 +37,11 @@ h1{
 }
 
 #imagem{
-    background-image: url("forca.1.png, forca.2.png, forca.3.png, ");
     width: 230px;
     height: 230px;
     background-repeat: no-repeat;
     align-items: center;
+
 }
 
 #palavra{
