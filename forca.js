@@ -302,7 +302,7 @@ function comparar(letra){
 function carregaImagem(){
     switch(tentativa){
         case 6:
-            let img6 = "url('forca.1.png', 'forca.2png', 'forca.3.png', 'forca.4.png)";
+            let img6 = "url('forca.1.png', 'forca.2.png', 'forca.3.png', 'forca.4.png', 'forca.5.png', 'forca.6.png', 'forca.7.png', 'forca.8.png', 'forca.9.png', 'forca.10.png' )";
             document.getElementById("imagem").style.background = img6;
             break;
         case 5:

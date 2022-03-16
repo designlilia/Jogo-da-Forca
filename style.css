@@ -13,7 +13,8 @@ body{
     background-color: white;
     background-image: url(https://th.bing.com/th/id/OIP.7SsPldw4JtyXRc8xG89kkgHaFD?pid=ImgDet&rs=1);
     background-size: cover;
-}
+    background-image: url(imag.forca.png);
+    
 
 h1{
     font-weight: 600 ;
@@ -34,7 +35,7 @@ h1{
 }
 
 #imagem{
-    background-image: url("forca.10.png");
+    background-image: url("forca.1.png, forca.2.png, forca.3.png, ");
     width: 230px;
     height: 230px;
     background-repeat: no-repeat;
@@ -85,7 +86,7 @@ h1{
 }
 
 footer{
-    background: #7398e9;
+    background: #88d6a0;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
